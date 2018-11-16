@@ -1,0 +1,95 @@
+html{
+    background-color: black;
+}
+
+h1{
+    margin-top: 40px;
+    margin-bottom:40px;
+    color:white;
+    text-align: center;
+}
+
+#face {
+    width: 50px;
+    height:50px;
+    /*background-color:white;*/
+    position:relative;
+    left: 225px;
+    top: 125px;
+    background-image: url("https://cdn4.iconfinder.com/data/icons/reaction/32/happy-512.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    z-index: 0;
+}
+
+#game{
+    border-style:solid;
+    border-color: white;
+    border-width: 10px;
+    border-radius: 20px;
+    margin-top: 20%;
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 500px;
+    height: 300px;
+    /*background-color: white;*/
+    background-image: url("http://buysellgraphic.com/images/graphic_preview/large/simple_cartoon_cloud_and_star_background_23630.jpg");
+    margin: auto;
+}
+
+#timetracker{
+    position: reative;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#startgameBox{
+    position: relative;
+    top:55px;
+    left:200px;
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+#startGame{
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    color: white;
+    background-color: #c94c4c;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 20px;
+}
+
+#submitform{
+    position: relative;
+    left:135px;
+    width: 230px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: #b5e7a0;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    visibility: hidden;
+}
+
+form{
+    padding-top:10px;
+    padding-bottom:5px;
+    text-align: center;
+}
+
+#submit{
+    margin: 0 auto;
+    display: block;
+}
+
+#timeboard{
+    position: relative;
+    margin: 0 auto;
+    color:white;
+    text-align: center;
+    width: 200px;
+}

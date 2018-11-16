@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <link rel="stylesheet" type="text/css" href="./stylesheets/game.css">
+    </header>
+    <body>
+        <h1> Chase the face </h1>
+        
+        <div id = "game" onclick="missed()">
+            <div id = "timetracker"> <text id="timer"> 00:00 </text></div>
+            <div id = "face" onclick = "gotit()"></div>
+            <div id = "startgameBox">
+                <button id="startGame">Start</button>
+            </div>
+            <div id = "submitform"> 
+                <form>
+                    <label for="name">Name: </label><input type="text" id="name" placeholder="Name">
+                </form>
+                <button type="submit" id ="submit"> submit</button>
+            </div>
+        </div>
+        <div id= "timeboard"> 
+            <h2> Records </h2>
+            <span id = "times"></span>
+        </div>
+        
+        <!--<div id= "timeboard"> -->
+        <!--    <h2> Records </h2>-->
+        <!--    <span id = "alltime"></span>-->
+        <!--</div>-->
+        
+        <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+        <script type="text/javascript" src="/javascripts/game.js"></script>
+        
+    </body>
+</html>
